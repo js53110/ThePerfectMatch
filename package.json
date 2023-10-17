@@ -1,0 +1,16 @@
+{
+  "name": "the-perfect-match",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "enforce-branch-name": "enforce-branch-name '(feature|task|chore|fix)/.+'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "enforce-branch-name": "^1.1.2",
+    "husky": "^8.0.1"
+  }
+}
